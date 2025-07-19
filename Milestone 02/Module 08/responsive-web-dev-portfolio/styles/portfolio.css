@@ -29,7 +29,8 @@
 }
 
 .section-title{
-
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .section-description{
@@ -146,14 +147,61 @@ main section{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-/* Note: Module 8-5 */
+/* Module 5-7 */
+/* Resume Section Styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* Module 5-8 */
+/* Footer Styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: 100%;
+    padding: 10px 20px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+}
+/* Module 8-6 */
 /* Responsive Media Query */
 .hide{
     display: none;
 }
-/* @media screen and (max-width: 576px) {
-    .skills-container{
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, footer{
         flex-direction: column;
     }
-} */
- 
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+}
