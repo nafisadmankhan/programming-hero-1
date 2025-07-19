@@ -19,6 +19,9 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+/* Module 8-3 Part 1 */
+
 /* Responsive Media Query */
 @media screen and (max-width:576px) {
     .row{
