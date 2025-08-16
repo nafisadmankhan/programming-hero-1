@@ -22,5 +22,6 @@ console.log(isLipi);
 
 /**
  * 1. Those year that is not divisible by 100, but divisible by 4 is a Leap Year
- * 2. 
+ * 2. If the year is divisible by 400, then it is a leap year
+ * 3. Else it is not a leap year
  */
