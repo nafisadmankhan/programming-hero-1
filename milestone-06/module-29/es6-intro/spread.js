@@ -34,3 +34,11 @@ const person =      { name: 'Rahim',       age: 25 }
 const employee =    { designation: 'dev', ...person}
 
 console.log(employee)
+
+
+
+const total = (a, b, c) => a + b + c 
+const result = total(45, 65, 21)
+const digits = [78, 55, 66]
+
+console.log(total(...digits))
