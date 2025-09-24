@@ -40,17 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-.student, .singer{
-  margin: 10px;
-  padding: 10px;
-  border-radius: 20px;
-  border: 3px solid salmon;
-}
-
-.border-card{
-  border: 2px solid gold;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 20px;
-}

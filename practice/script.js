@@ -1,3 +1,7 @@
-const friends = ["Moushumi", "Misha", "Manna", "mimi" , "mahiya"];
+let food = ['mango', 'rice', 'pepper', 'pear'];
 
-console.log(friends.find(friend => friend.length==5))
+let test = food.forEach(function (foodItem) {
+    console.log('I want to eat ' + foodItem);
+});
+
+console.log(test);
