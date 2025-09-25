@@ -1,7 +1,5 @@
-let food = ['mango', 'rice', 'pepper', 'pear'];
-
-let test = food.forEach(function (foodItem) {
-    console.log('I want to eat ' + foodItem);
-});
+const test = a;
+const test = a;
+const test = 10;
 
 console.log(test);
