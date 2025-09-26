@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "brand": "Hydro Flask",
+    "capacity": "500ml",
+    "material": "Stainless Steel",
+    "color": "Blue",
+    "price": 35,
+    "image_url": "https://www.footshop.eu/media/catalog/product/h/y/hydroflask-500-ml-standard-flex-cap-indigo.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "Nalgene",
+    "capacity": "750ml",
+    "material": "BPA-Free Plastic",
+    "color": "Green",
+    "price": 15,
+    "image_url": "https://nalgene.com/media/catalog/product/cache/1/image/750x750/9df78eab33525d08d6e5fb8d27136e95/2/3/23_oz_wide_mouth_bottle.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "CamelBak",
+    "capacity": "600ml",
+    "material": "Stainless Steel",
+    "color": "Red",
+    "price": 28,
+    "image_url": "https://www.camelbak.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/c/h/chute-mag-600ml-stainless-steel-red.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Contigo",
+    "capacity": "700ml",
+    "material": "Plastic",
+    "color": "Black",
+    "price": 20,
+    "image_url": "https://www.gocontigo.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/a/s/ashland-700ml-black.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "S’well",
+    "capacity": "500ml",
+    "material": "Stainless Steel",
+    "color": "Silver",
+    "price": 40,
+    "image_url": "https://www.swell.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/o/c/ocean-marble-500ml.jpg"
+  }
+]
