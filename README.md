@@ -12,3 +12,5 @@
 | 31-6 (optional) Callback function and pass different functions | callback.js | # |
 | 31-7 (advanced) function arguments pass by reference pass by value | ```pass-by-reference```, ```arguments.js``` | # |
 | 31-8 (advanced) Explore about Closure | ```closure.js``` |
+
+Check Notion for Additional Info
