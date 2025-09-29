@@ -1,6 +1,6 @@
 | Milestone | Projects                                                                 |
 |-----------|--------------------------------------------------------------------------|
-| 7         | [tailwind-react-pricing-options](http://tailwind-react-pricing-options-nsk.surge.sh) |
+| 08         | [tailwind-react-pricing-options](http://tailwind-react-pricing-options-nsk.surge.sh) |
 
 17_5_1 Let's write your First Function
 17_5_2 Next Milestone Discussion & Strategy
