@@ -4,11 +4,12 @@ import DaisyNav from "./components/DaisyNav/DaisyNav";
 import NavBar from "./components/NavBar/NavBar";
 import PricingOptions from "./components/PricingOptions/PricingOptions";
 import ResultsChart from "./components/ResultsChart/ResultsChart";
-import MarksChart from "./components/MarksChart/MarksChart";
 import axios from 'axios'
+import MarksChart from "./components/MarksChart/MarksChart";
 
 const pricingPromise = fetch("./pricingData.json").then((res) => res.json());
 const marksPromise = axios.get("./marksData.json");
+console.log("POTENTAIL ERROROR",marksPromise);
 
 function App() {
   return (
