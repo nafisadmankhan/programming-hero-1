@@ -1,19 +1,22 @@
 import React from 'react';
 import Header from '../Header/Header';
-import { Outlet } from 'react-router';
+import { Outlet, useNavigation } from 'react-router';
 import Footer from '../Footer/Footer';
 import SideBar from '../SideBar/SideBar';
 import './Root.css';
 
 const Root = () => {
+
+    const navigation = useNavigation();
+    const isNavigating = Boolean(navigation.location);
+
     return (
         <div>
             <Header></Header>
-            <div>
-                <div className='root-main'>
-                    <SideBar></SideBar>
-                    <Outlet></Outlet>
-                </div>
+            <div className='root-main'>
+                <SideBar></SideBar>
+                {isNavigating && <span>Loading...</span>}
+                <Outlet></Outlet>
             </div>
             <Footer></Footer>
         </div>
